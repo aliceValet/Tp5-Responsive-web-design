@@ -5,10 +5,15 @@
 
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	</head>
 	<body>
+		
 		<header>
-			<div class="wrapper">
+			<div class="wrapper container">
 				<div class="logo-search">
 					<img class="pull-left" src="img/logo.png" />
 				</div>
@@ -22,7 +27,10 @@
 				</div>
 			</div>
 		</header>
-		<aside>
+		<div class="container">
+		<div class="row">
+		<aside class="col-2">
+
 			<h3>Browse</h3>
 			<nav class="browse">
 				<ul class="main">
@@ -41,7 +49,7 @@
 			</nav>
 		</aside>
 
-		<main>
+		<main class="col-10">
 			<header>
 				<div class="name-photo">
 					<aside>
@@ -72,7 +80,7 @@
 				<a class="station" href="#">Start Station</a>
 			</div>
 			<section id="albums">
-				<article>
+				<article class="col col-xl-2 col-md-3 col-sm-6 ">
 					<figure>
 						<img src="img/album/album_01.png" />
 						<figcaption>Native (Deluxe)</figcaption>
@@ -80,7 +88,7 @@
 					<div class="artist">OneRepublic</div>
 					<div class="count">17 songs</div>
 				</article>
-				<article>
+				<article class="col col-xl-2 col-md-3 col-sm-6">
 					<figure>
 						<img src="img/album/album_02.png" />
 						<figcaption>Wax Wings</figcaption>
@@ -88,7 +96,7 @@
 					<div class="artist">Joshua Radin</div>
 					<div class="count">11 songs</div>
 				</article>
-				<article>
+				<article class="col col-xl-2 col-md-3 col-sm-6">
 					<figure>
 						<img src="img/album/album_03.png" />
 						<figcaption>Modern Vampires of th...</figcaption>
@@ -96,7 +104,7 @@
 					<div class="artist">Vampire Weekend</div>
 					<div class="count">12 songs</div>
 				</article>
-				<article>
+				<article class="col col-xl-2 col-md-3 col-sm-6">
 					<figure>
 						<img src="img/album/album_04.png" />
 						<figcaption>Night Visions</figcaption>
@@ -104,7 +112,7 @@
 					<div class="artist">Imagine Dragons</div>
 					<div class="count">11 songs</div>
 				</article>
-				<article>
+				<article class="col col-xl-2 col-md-3 col-sm-6">
 					<figure>
 						<img src="img/album/album_05.png" />
 						<figcaption>Trouble Will Find Me</figcaption>
@@ -112,7 +120,7 @@
 					<div class="artist">The National</div>
 					<div class="count">13 songs <span class="explicit">EXPLICIT</span></div>
 				</article>
-				<article>
+				<article class="col col-xl-2 col-md-3 col-sm-6">
 					<figure>
 						<img src="img/album/album_06.png" />
 						<figcaption>Native (Deluxe)</figcaption>
@@ -120,7 +128,7 @@
 					<div class="artist">OneRepublic</div>
 					<div class="count">17 songs</div>
 				</article>
-				<article>
+				<article class="col col-xl-2 col-md-3 col-sm-6">
 					<figure>
 						<img src="img/album/album_07.png" />
 						<figcaption>Wax Wings</figcaption>
@@ -128,7 +136,7 @@
 					<div class="artist">Joshua Radin</div>
 					<div class="count">11 songs</div>
 				</article>
-				<article>
+				<article class="col col-xl-2 col-md-3 col-sm-6">
 					<figure>
 						<img src="img/album/album_08.png" />
 						<figcaption>Modern Vampires of th...</figcaption>
@@ -136,7 +144,7 @@
 					<div class="artist">Vampire Weekend</div>
 					<div class="count">12 songs</div>
 				</article>
-				<article>
+				<article class="col col-xl-2 col-md-3 col-sm-6">
 					<figure>
 						<img src="img/album/album_09.png" />
 						<figcaption>Night Visions</figcaption>
@@ -144,7 +152,7 @@
 					<div class="artist">Imagine Dragons</div>
 					<div class="count">11 songs <span class="explicit">EXPLICIT</span></div>
 				</article>
-				<article>
+				<article class="col col-xl-2 col-md-3 col-sm-6">
 					<figure>
 						<img src="img/album/album_10.png" />
 						<figcaption>Trouble Will Find Me</figcaption>
@@ -154,5 +162,8 @@
 				</article>
 			</section>
 		</main>
+	</div>
+</div>
+
 	</body>
 </html>
