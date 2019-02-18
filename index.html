@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no/>
 		<title>Rdio - Luke Chesser</title>
 
 		<link rel="stylesheet" href="css/reset.css"/>
@@ -22,8 +23,8 @@
 					<input type="search" required class="search">
 					<input type="submit" name="submit" value="Rechercher" class="submit">
 				</form>
-				<div class="user dropdown">
-				    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Luke Chesser</a>
+				<div class="user dropdown show">
+				    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Luke Chesser</a>
 
 					  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 					    <a class="dropdown-item" href="#">Edit my profile</a>
@@ -80,10 +81,12 @@
 					</div>
 				</div>
 			</header>
-			<h2>Top Album</h2>
-			<div>
+			<div class="d-flex">
+			<h2 >Top Album</h2>
+			<div class="d-flex ml-auto">
 				<a class="station" href="#">Start Station</a>
 			</div>
+		</div>
 			<section id="albums">
 				<article class="col col-xl-2 col-md-3 col-sm-6 ">
 					<figure>

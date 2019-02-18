@@ -98,8 +98,13 @@ h1 {
 .name p img { 
     margin-left: 12px;
 }
+.name h1{
+    font-size: 2em;
+}
 
-
+.col-10 h2{
+    font-size: 1.6em;
+}
 .stats-links {
     color: #4b5c66;
     font-size: 1.091em;
@@ -214,6 +219,40 @@ nav.browse a, nav.music a {
     font-size: 1em;
     padding-left: 20px;
     padding-top: 2px;
+}
+aside h3{
+    font-size: 1.2em;
+}
+.main{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+    header form {
+        display: none;
+    }
+}
+@media only screen and (max-width: 557px) {
+    .share {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    body {
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width: 450px) {
+    body {
+        font-size: 0.6em;
+    }
 }
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
